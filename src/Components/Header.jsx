@@ -21,6 +21,7 @@ const Header = () => {
               onClick={toggleMobileMenu}
             >
               <span className="absolute -inset-0.5"></span>
+              
               <span className="sr-only">Open main menu</span>
               
               {!mobileMenuOpen ? (
